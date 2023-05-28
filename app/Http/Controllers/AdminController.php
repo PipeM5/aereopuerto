@@ -6,8 +6,16 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function administracion(){
+   
 
-        return view('bienvenida');
-    } 
+    public function showAdmin()
+    {
+        return view('admin.admin_view');
+    }
+
+    public function listVuelo()
+    {
+       
+        return view('admin.admin_vuelos');
+    }
 }
