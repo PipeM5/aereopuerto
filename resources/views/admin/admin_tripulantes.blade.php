@@ -45,7 +45,7 @@
     <div class="card text-white bg-dark mb-3" style="max-width: 70rem;">        
         <div class="card-body">
             <h5 class="card-title" style="text-align: center">GESTIONAR TRIPULANTES</h5>
-            <h5 class="card-title">HOLA, JAIRO CUCHALÁ.</h5>
+            <h5 class="card-title">HOLA, JUAN FLOREZ.</h5>
             <p class="card-text">Cargo: Administrativo.</p>
             <p class="card-text">Ciudad de residencia: San Juan de Pasto.</p>
             <p class="card-text">Desde este menú puedes añadir, editar, listar y eliminar tripulantes pertenecientes a la aerolínea.</p>

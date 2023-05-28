@@ -25,9 +25,10 @@ Route::get('login', [HomeController::class, 'logearse']);
 Route::any('admin', [AdminController::class, 'showAdmin']);
 Route::any('adminvuelos', [AdminController::class, 'listVuelo']);
 Route::any('admintripulantes', [ListController::class, 'obtenerTripulantes']);
- 
 Route::any('adminrutas', [AdminController::class, 'listRuta']);
 
-Route::get('/tres', [PersonalController::class, 'clases']);
-
+/**Rutas para las 3 VISTAS ADICIONALES creadas */
+Route::any('adminvuelos/crearvuelo', [PersonalController::class, 'createVuelo']);
+Route::any('adminrutas/crearruta', [PersonalController::class, 'createRuta']);
+Route::any('admintripulantes/agregartripulante', [PersonalController::class, 'createTripulante']);
 
