@@ -14,15 +14,19 @@ use App\Http\Controllers\PersonalController;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+
 
 Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+Route::get('/', [HomeController::class, 'getHome']);
+Route::get('login', [HomeController::class, 'logearse']);
+
 
 Route::get('/principal', [AdminController::class, 'administracion']);
 
-Route::get('/dos', [HomeController::class, 'compras']);
+
 
 Route::get('/tres', [PersonalController::class, 'clases']);
 
