@@ -18,4 +18,10 @@ class AdminController extends Controller
        
         return view('admin.admin_vuelos');
     }
+
+    public function listRuta()
+    {
+      
+        return view('admin.admin_rutas');
+    }
 }

@@ -25,7 +25,7 @@ Route::get('login', [HomeController::class, 'logearse']);
 Route::any('admin', [AdminController::class, 'showAdmin']);
 Route::any('adminvuelos', [AdminController::class, 'listVuelo']);
 
-
+Route::any('adminrutas', [AdminController::class, 'listRuta']);
 
 Route::get('/tres', [PersonalController::class, 'clases']);
 
