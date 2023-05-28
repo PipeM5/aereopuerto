@@ -67,23 +67,6 @@
         <th scope="col">OPCIONES</th>
         </tr>
         </thead>
-        <tbody>
-            <tr>  
-                @foreach($usuarios as $usuario)
-                    <td>{{ $usuario->cedula }}</td>
-                    <td>{{ $usuario->nombre }}</td>
-                    <td>{{ $usuario->apellido }}</td>
-                    <td>{{ $usuario->ciudad }}</td>
-                    <td>{{ $usuario->cargo }}</td>
-                    <td>
-                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                            <a type="button" class="btn btn-dark"><i class="bi bi-trash"></i></a>
-                            <a type="button" class="btn btn-dark" href="{{ url('/admintripulantes/editartripulante') }}"><i class="bi bi-pencil-square"></i></a>
-                        </div>
-                    </td>
-                @endforeach                
-            </tr>
-        </tbody>
+        
     </table>
 @endsection
-
